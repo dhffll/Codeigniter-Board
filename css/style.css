@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr td{
+    border: 1px solid #aaa;
+}
+h1{
+    display: inline-block;
+}
+#submit{
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 2px;
+    cursor: pointer;
+}
+.empty{
+    padding: 10px 0px;
+}
+#cnt{
+    color: blue;
+}
