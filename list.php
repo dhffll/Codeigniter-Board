@@ -32,7 +32,7 @@
         if($_SESSION['id'] == $filtered['writer']){ //작성자 권한
     ?> 
         <a href="update.php?num=<?=$filtered_num?>">update</a>
-        <form style="display: inline-block;" action="delete.php" method="POST" id="form" onsubmit="return check()">
+        <form style="display: inline-block;" action="delete.php" method="POST" id="form" onsubmit="return confirm('정말 삭제하시겠습니까?')">
             <input type="hidden" name="num" value="<?=$filtered_num?>">
             <input type="submit" value="delete">
         </form>
